@@ -6,6 +6,7 @@ import * as yup from "yup";
 
 import "./index.css";
 
+const aa;
 const SignupSchema = yup.object().shape({
   firstName: yup.string().required(),
   age: yup.number().required().positive().integer(),
